@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World!</title>
+  <script src="render.js" defer></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js">
+  </script>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <main>
+    <canvas id="chart" style="width:100%;max-width:700px"></canvas>
+  </main>
+  <button onclick="yes()">
+TEST
+  </button>
+</body>
+
 </html>
